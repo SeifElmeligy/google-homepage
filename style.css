@@ -1,2 +1,36 @@
 .grid {color: black;}
-body {background-color: rgba(233, 227, 217, 0.925);}
+body {
+      background-color: rgba(233, 227, 217, 0.925);
+    }
+
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(216, 215, 215);
+  }
+  .active {
+    position: right; 
+    float: right;
+  }
