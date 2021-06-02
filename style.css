@@ -1,3 +1,4 @@
+/* NAV BAR */
 .grid {color: black;}
 body {
       background-color: rgba(233, 227, 217, 0.925);
@@ -31,7 +32,16 @@ body {
     background-color: rgb(216, 215, 215);
   }
   li:last-child {
-    position: ; 
     float: right;
+  }
+  #logo {
+    padding: 10em 10em;
+    border: 10em 10em;
+    display: flex;
+    position: relative;
+    left: 40%;
     
+    height: auto;
+    width: auto;
+    justify-content: center;
   }
