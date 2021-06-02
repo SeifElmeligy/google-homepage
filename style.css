@@ -30,7 +30,8 @@ body {
   li a:hover {
     background-color: rgb(216, 215, 215);
   }
-  .active {
-    position: right; 
+  li:last-child {
+    position: ; 
     float: right;
+    
   }
