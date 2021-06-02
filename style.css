@@ -1,7 +1,9 @@
 /* NAV BAR */
 .grid {color: black;}
 body {
-      background-color: rgba(241, 238, 227, 0.932);
+  font-size: 14px;
+      background-color: rgb(255, 255, 255);
+      font: arial, sans-serif;
     }
 
 
@@ -16,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(241, 238, 227, 0.925);
+    background-color: rgb(255, 255, 255);
   }
   
 
@@ -40,6 +42,7 @@ li:last-child {
     float: right;
   }
 
+/*MAIN LOGO*/
 #logo {
     display: block;
     left: auto;
@@ -51,38 +54,68 @@ li:last-child {
     width: auto;
   }
 
+  /*SEARCH BAR*/
 .input {
     border-radius: 24px;
     width: 30%;
     left: auto;
     right: auto ;
-    margin-left: 35%;
+    margin-left: 35vw;
     margin-right: auto;
     height: auto;
     padding: 10px;
   }
+
+  /*BUTTONS*/
 #button1:hover {
   background-color: ivory;
 }
+#button2:hover {
+  background-color: ivory;
+}
 #button1 {
-          border-radius: 5px;
+          border-radius: 15px;
           width: auto;
           left: auto;
           right: auto ;
-          margin-left: 42%;
-          margin-right: auto;
+          margin-left: 37vw;
+          margin-right: 1vw;
           margin-top: 10px;
-
-
-}  
+          padding: 12px
+        }  
 
 #button2 {
-
-
-}
+          border-radius: 15px;
+          margin-top: 10px;
+          padding: 12px
+       }
 
 p {
     background-color: inherit;
     color: inherit;
   }
+ 
+ .lang {
+   width: 2px;
+   padding: 1px 
 
+ } 
+ nav#botnav {
+   background-color: lightgray;
+   position: fixed;
+   bottom: 0px;
+ }
+.region{
+  border: 0px 0px;
+  padding: 0px 0px;
+  float: left;
+}
+.flex {
+  background-color: lightgray;
+  float: left;
+}
+
+
+li:nth-last-child(2) {
+  float: right;
+}
