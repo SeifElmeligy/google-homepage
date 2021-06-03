@@ -3,143 +3,151 @@ body {
   font-size: 14px;
   background-color: rgb(255, 255, 255);
   font-family:  arial, sans-serif;
-    }
+}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
 #signin {
-
-    display: inline-block;
-    border: 1px solid #4285f4;
-    font-weight: bold;
-    outline: none;
-    color: rgb(255, 255, 255);
-    background: #4285f4;
-    line-height: 9px;
-    padding: 0 6px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    cursor: default;
-    text-decoration: none;
-  }
+  display: inline-block;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #4285f4;
+  line-height: 9px;
+  padding: 0 6px;
+  border-radius: 2px;
+  cursor: default;
+  text-decoration: none;
+}
 
 li {
-    float: left;
-  }
+  float: left;
+ }
 
 li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+}
 #signin {
   color: white !important;
 } 
-
 li a:hover {
-text-decoration: underline;  }
+  text-decoration: underline;  
+}
 
 .right {
-    float: right;
-  }
+  float: right;
+}
 
 /*MAIN LOGO*/
 #logo {
-    display: block;
-    left: auto;
-    right: auto;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: auto;
-  }
+  display: block;
+  left: auto;
+  right: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
 
   /*SEARCH BAR*/
-
-  .searchbar {
+.searchbar {
   min-width: 400px;
-    max-width: 484px;
-    width: auto;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #dee0e6;
-    box-shadow: none;
-    border-radius: 24px;
-    height: 44px;
-  }
+  max-width: 484px;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dee0e6;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+}
 
 .searchbar:hover,
 .searchbar:focus-within{
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    border-color: rgba(223,225,229,0);
-    outline: none;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+  outline: none;
 }
   /*BUTTONS*/
 .flexbuttons {
-margin-top: 25px;  
-margin-left: 41%
+  margin-top: 25px;  
+  margin-left: 43%;
+  margin-right: auto;
 }
 .searchbuttons {
   background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 4px;
-    color: #5F6368;
-    font-family: Arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 
 }
- .searchbuttons:hover {
+.searchbuttons:hover {
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   color: #222;
- }
+}
 
- #sec-lang {
+#sec-lang {
   margin-top: 25px;  
-  margin-left: 45%
+  margin-left: 45%;
+  margin-right: auto;
  }
 p {
-    background-color: inherit;
-    color: inherit;
-  }
+  background-color: inherit;
+  color: inherit;
+}
  
- .lang {
-   width: 2px;
-   padding: 1px 
+.lang {
+  width: 2px;
+  padding: 1px 
 
  } 
 #botnav {
-   background-color: rgb(71, 52, 52);
-   position: fixed;
-   bottom: 0px;
- }
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  color: #8b8b8b ;
+  text-align: left;
+  padding: 0 0;
+  text-decoration: none;
+  font-size: 14px;
+}
 .region{
   border: 0px 0px;
   padding: 0px 0px;
   float: left;
+  color: #5F6368;
+  background-color: rgb(238, 238, 238);
+  width: 100%;
 }
-.flex {
-  background-color: lightgray;
-  float: left;
+#secondnav{
+  display: block;
+  align-items: flex-start;
+  text-align: Left !important;
 }
-
