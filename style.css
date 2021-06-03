@@ -1,17 +1,9 @@
 /* NAV BAR */
-.grid {color: black;}
 body {
   font-size: 14px;
-      background-color: rgb(255, 255, 255);
-      font: arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-family:  arial, sans-serif;
     }
-
-
-a {
-    display: block;
-    padding: 8px;
-    background-color: #ffffff;
-  }
 
 ul {
     list-style-type: none;
@@ -20,25 +12,41 @@ ul {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
   }
-  
+#signin {
+
+    display: inline-block;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #4285f4;
+    line-height: 9px;
+    padding: 0 6px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: default;
+    text-decoration: none;
+  }
 
 li {
     float: left;
   }
 
-  li a {
+li a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
+#signin {
+  color: white !important;
+} 
 
 li a:hover {
-    background-color: rgb(216, 215, 215);
-  }
+text-decoration: underline;  }
 
-li:last-child {
+.right {
     float: right;
   }
 
@@ -47,7 +55,7 @@ li:last-child {
     display: block;
     left: auto;
     right: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -55,41 +63,61 @@ li:last-child {
   }
 
   /*SEARCH BAR*/
-.input {
+
+  .searchbar {
+  min-width: 400px;
+    max-width: 484px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dee0e6;
+    box-shadow: none;
     border-radius: 24px;
-    width: 30%;
-    left: auto;
-    right: auto ;
-    margin-left: 35vw;
-    margin-right: auto;
-    height: auto;
-    padding: 10px;
+    height: 44px;
   }
 
+.searchbar:hover,
+.searchbar:focus-within{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    outline: none;
+}
   /*BUTTONS*/
-#button1:hover {
-  background-color: ivory;
+.flexbuttons {
+margin-top: 25px;  
+margin-left: 41%
 }
-#button2:hover {
-  background-color: ivory;
+.searchbuttons {
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
 }
-#button1 {
-          border-radius: 15px;
-          width: auto;
-          left: auto;
-          right: auto ;
-          margin-left: 37vw;
-          margin-right: 1vw;
-          margin-top: 10px;
-          padding: 12px
-        }  
+ .searchbuttons:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+ }
 
-#button2 {
-          border-radius: 15px;
-          margin-top: 10px;
-          padding: 12px
-       }
-
+ #sec-lang {
+  margin-top: 25px;  
+  margin-left: 45%
+ }
 p {
     background-color: inherit;
     color: inherit;
@@ -100,8 +128,8 @@ p {
    padding: 1px 
 
  } 
- nav#botnav {
-   background-color: lightgray;
+#botnav {
+   background-color: rgb(71, 52, 52);
    position: fixed;
    bottom: 0px;
  }
@@ -115,7 +143,3 @@ p {
   float: left;
 }
 
-
-li:nth-last-child(2) {
-  float: right;
-}
