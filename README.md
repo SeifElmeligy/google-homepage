@@ -1,2 +1,2 @@
 # google-homepage
-a search homepage with some features
+A clone of google's home page made with only HTML and CSS.
